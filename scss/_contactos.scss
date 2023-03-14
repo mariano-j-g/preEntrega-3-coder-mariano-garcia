@@ -1,0 +1,24 @@
+/* pagina contactos */
+
+.left {
+  background: blueviolet;
+  padding: 200px 98px;
+
+  h2 {
+    font-family: poppins;
+    color: $color;
+    font-weight: 700;
+    font-size: 48px;
+    span {
+      font-weight: 100;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

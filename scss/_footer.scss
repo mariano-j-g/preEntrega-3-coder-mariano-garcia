@@ -1,0 +1,49 @@
+/* footer */
+footer {
+  min-height: 100px;
+  background-color: $footer-background-color;
+  color: white;
+  padding-top: 2rem;
+
+  .derechos-de-autor {
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    background-color: $footer-background-color-secundary;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid $color;
+    border-radius: 20%;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      background-color: $color;
+      border: 2px solid rgb(13, 113, 253);
+      i {
+        color: black;
+      }
+    }
+  }
+
+  i {
+    color: $color;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+}

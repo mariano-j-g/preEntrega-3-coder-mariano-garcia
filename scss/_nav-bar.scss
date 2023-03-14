@@ -1,0 +1,23 @@
+/* navbar */
+header {
+  background-color: rgba(99, 103, 103, 0.252);
+  padding: 0.5rem 0;
+
+  nav {
+    padding: 2rem;
+    background-color: $color;
+
+    .collapse {
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+/* media query */
+
+/* nav bar media */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}

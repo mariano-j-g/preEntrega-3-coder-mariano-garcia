@@ -1,0 +1,44 @@
+/* SECCION  crispr-texto */
+.crispr {
+  padding: 60px 60px 60px 60px;
+  .seccion-clara {
+    color: black;
+    background-color: $color;
+  }
+
+  .row {
+    color: rgb(10, 5, 5);
+
+    .crispr-titulo {
+      font-size: 25px;
+      font-weight: bold;
+      margin: 10px;
+    }
+  }
+
+  .columna {
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.2s ease;
+    &:hover {
+      color: $color;
+      background-color: rgb(123, 186, 218);
+    }
+  }
+  i {
+    font-size: 3rem;
+    color: rgb(13, 8, 8);
+    padding: 8px 19px;
+    border-radius: 50px;
+  }
+}
+/* seccion fotos crispr */
+.fotos {
+  .imagen {
+    width: fit-content;
+    height: fit-content;
+  }
+}
